@@ -1,9 +1,9 @@
 @charset "utf-8";
 
 /*
-   Project Name:
-   Author(s):
-   Date:
+{"path":"/tauri/C/Users/S580229/OneDrive - nwmissouri.edu/Documents/2026-2027 Courses/Fall 2026/Web Development/Web Dev Project/web-dev-ii-fa26-group-project-group-1/styles.css"}   Project Name:
+   Author(s): Mitchell Nelson
+   Date: 10/15/2026
    Filename: styles.css
 
 */
@@ -12,16 +12,123 @@
 /* HTML and Body styles */
 
 
+/* Announcement styles */
+.announcement-bar {
+    display: flex;
+    width: 100%;
+    min-height: 55px;
+    margin: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
 
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    background-color: #304b3d;
+    color: #ffffff;
+    padding: 14px 16px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(10px, 1.2vw, 17px);
+    font-weight: bold;
+    letter-spacing: clamp(1px, 0.2vw, 3px);
+    line-height: 1.5;
+    text-align: center;
+}
 
 /* Header styles */
+header {
+   background-color: #f7f1e7;
+   min-height: 200px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 1px 20px 10px;
+   border-bottom: 1px solid #e1d9ce;
+}
 
+header > a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 15px;
+}
 
-
+header img {
+   display: block;
+   width: 250px;
+   height: auto;
+   object-fit: contain;
+}
 
 /* Navigation list styles */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+nav a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #68635c;
+    font-size: clamp(11px, 1.15vw, 16px);
+    font-weight: bold;
+    letter-spacing: clamp(0.5px, 0.15vw, 2px);
+    text-transform: uppercase;
+    padding: 17px clamp(10px, 1.5vw, 20px);
+    border-radius: 0;
+    background-color: transparent;
+    transition: color 0.25s ease;
+}
 
+nav a:not(:last-child) {
+    text-decoration: none;
+    text-underline-offset: 6px;
+    text-decoration-thickness: 2px;
+}
+
+nav a:not(:last-child):hover {
+    color: #ad4e32;
+    text-decoration: underline;
+    background-color: transparent;
+}
+
+nav a:first-child {
+    color: #ad4e32;
+}
+
+nav a:last-child {
+   background-color: #ad4e32;
+   color: #ffffff;
+   padding: 20px 30px;
+   border-radius: 40px;
+   text-decoration: none;
+}
+
+nav a:last-child:hover {
+   background-color: #8f3e28;
+   color: #ffffff;
+   text-decoration: none;
+}
+
+nav a:focus-visible {
+   outline: 2px solid #304b3d;
+   outline-offset: 4px;
+}
 
 /* Article Styles */
 
@@ -29,7 +136,110 @@
 
 /* Page footer styles */
 
+footer{
+   background-color: #f7f1e7;
+   font-family: Arial, Helvetica, sans-serif;
 
+
+}
+
+.footer-container{
+   display: flex;
+   width: 100%;
+   gap: 30px;
+   
+}
+.footer-column{
+   flex: 1;
+}
+
+.footer-column h4{
+   color: #ad4e32
+}
+
+.footer-column:first-child{
+   flex: 1.5;
+   color: #68635c;
+   font-size: clamp(13px, 1.2vw, 17px);
+   
+}
+
+.footer-column  ul{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(13px, 1.2vw, 17px);
+    font-weight: bold;
+    letter-spacing: clamp(1px, 0.2vw, 3px);
+    line-height: 1.5;
+    
+   
+   
+}
+
+
+.footer-column:nth-child(2) a{
+   color: #68635c;
+   text-decoration: none;
+   
+   
+}
+
+.footer-column:nth-child(3) a{
+   color: #68635c;
+   font-weight: bold;
+   display: inline-block;
+   margin-top: 10px;
+   
+   
+}
+
+.footer-column:nth-child(3) address{
+   color: #68635c;
+   text-decoration: none;
+   line-height: 1.6;
+   padding: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+   
+   
+}
+
+.footer-column a:hover{
+   text-decoration: underline;
+   color: #ad4e32
+}
+
+
+
+footer img {
+   display: block;
+   width: 230px;
+   height: auto;
+   object-fit: contain;
+}
+
+.footer-bottom {
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   border-top: 1px solid #e1d9ce;
+   margin-top: 30px;
+   padding: 20px 15px;
+   text-align: center;
+   color:#68635c;
+   font-size: 13px;
+   line-height: 1.6;
+
+}
+
+.footer-bottom p{
+   max-width: 900px;
+   margin: 0;
+}
 
 
 /* =============================================
