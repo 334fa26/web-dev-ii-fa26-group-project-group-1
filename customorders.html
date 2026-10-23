@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <body lang="en">
-<head>
+    <head>
       <!--
          Project Description:
 
@@ -168,16 +168,19 @@
                     </select>
                 </div>
                     <div class="form-group">
-                    <label for="pickup">Pickup Dates</label>
-                    <select id="size" name="size">
-                       <option>Select a size</option>
-                        <option>6 inch</option>
-                        <option>8 inch</option>
-                        <option>10 inch</option>
-                    </select>
+                    <label for="pickupDate">Pickup Date</label>
+                    <input type="date" id="pickupDate" name="pickupDate">
                 </div>
              </div>
-                    
+                <div class="form-group">
+                    <label for="theme">Design or Theme</label>
+                        <input type="text" id="theme" name="theme" placeholder="Colors, occasion, inspiration...">
+                </div>
+                <div class="form-group">
+                    <label for="details">Additional Details</label>
+                    <textarea id="details" name="details" row="6" placeholder="Tell us more about what you have in mind"></textarea>
+                </div>
+            <button type="submit">SEND ORDER REQUEST</button>
             </form>
         </section>
     
