@@ -9,8 +9,30 @@
 */
 
 
-/* HTML and Body styles */
+/* HTML and Body styles utilized AI tool, wasn't logged into CHATGPT, 3 following pieces of code were created by GPT, Mrs. Linville oversaw the whole process */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main page content */
+article {
+    flex: 1;
+}
 
 /* Announcement styles */
 .announcement-bar {
