@@ -161,6 +161,93 @@ nav a:focus-visible {
     margin: auto;
 }
 
+.two-column {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: 32px;
+    align-items: start;
+}
+
+secion {
+    padding: 80px 0;
+}
+
+/* Section */
+
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f1e7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4a5a63
+}
+
+.custom-cakes {
+    background: #f7f1e7; 
+}
+
+.custom-cakes-container {
+    max-width: 420px;
+    margin: 0 auto;
+}
+
+/* Feature Cards */
+
+.features {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/* Block Section */
+.custom-cakes {
+    padding: 2em;
+}
+
+/*Top Box*/
+.signature-offering {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2em;
+    padding: 2em;
+}
+/*Left side of top box*/
+.signature-offering_content {
+    width: 60;
+}
+/* Right side of top box */
+.signature-offering_description {
+    width: 35%
+}
+/*Bottom Row */
+.cake-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/* Individual bottom boxes */
+.option-card {
+    padding: 2em;
+}
+
+
+.custom-order-section {
+    display: flex;
+    gap: 3em;
+}
+.how-it-works {
+    flex: 1;
+}
+.order-form-card {
+    flex: 1.3;
+}
+.form-row {
+    display: flex;
+    gap: 1em;
+}
+.form-group {
+    display: flex; 
+    flex-direction: column;
+}
 
 /* Page footer styles */
 
