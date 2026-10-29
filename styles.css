@@ -173,6 +173,9 @@ secion {
 }
 
 /* Section */
+.custom-cakes {
+    background: #f7f1e7; 
+}
 
 .body {
     margin: 0;
@@ -180,10 +183,6 @@ secion {
     background-color: #f7f1e7;
     font-family: Arial, Helvetica, sans-serif;
     color: #4a5a63
-}
-
-.custom-cakes {
-    background: #f7f1e7; 
 }
 
 .custom-cakes-container {
@@ -224,31 +223,66 @@ secion {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
-/* Individual bottom boxes */
-.option-card {
-    padding: 2em;
-}
 
-
-.custom-order-section {
-    display: flex;
+/*Form*/
+.custdom-order-selection {
+    display: grid;
+    grid-template-columns: 1fr, 1.3fr;
     gap: 3em;
+    max-width: 1200px;
+    margin: 4em auto;
+    padding: 2em;
+    background-color: #eadbcf;
+    border-radius: 30px;
 }
-.how-it-works {
-    flex: 1;
+
+/* Left Side */
+.how-it-workds {
+    color: #21424c
 }
-.order-form-card {
-    flex: 1.3;
+.step-label {
+    color: #ad4e32;
+    letter-spacing: 3px;
+    font-size: .8em;
+    font-weight: 1.5em;
 }
-.form-row {
+.how-it-works h2 {
+    font-family: Georgia, serif;
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #ad4e32;
+    margin-bottom: 2.5em;
+}
+
+/* Steps */
+.steps {
     display: flex;
-    gap: 1em;
-}
-.form-group {
-    display: flex; 
     flex-direction: column;
 }
-
+.step {
+    display: flex;
+    gap: 1em;
+    padding: 1em 0;
+    border-bottom: 1px solid #d8cabc;
+}
+.step-number {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .8em;
+    font-weight: bold;
+}
+.step-content h3 {
+    margin: 0 0 .25em;
+    font-size: .95em;
+    color: #21424c
+}
 /* ============================================
  * ============================================
  * Mitchell Nelson - note to others in project
