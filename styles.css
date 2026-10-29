@@ -249,6 +249,444 @@ secion {
     flex-direction: column;
 }
 
+/* ============================================
+ * ============================================
+ * Mitchell Nelson - note to others in project
+ * ============================================
+ * ============================================ */
+/* home and menu styles */
+/* Index page specific code */
+.home-page main {
+   flex: 1;
+   width: 100%;
+   color: #304b3d;
+   font-family: Georgia, "Times New Roman", serif;
+}
+
+.home-page main p {
+   line-height: 1.65;
+}
+
+.home-page main article {
+   flex: initial;
+}
+
+.home-page main > article:first-child {
+   min-height: 263px;
+   padding: 29px 9.3% 27px;
+   background-color: #f7f1e7;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.home-page main > article:first-child > p:first-child {
+   margin: 0 0 9px;
+   color: #ad4e32;
+   font-size: 9px;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+}
+
+.home-page main > article:first-child h1 {
+   margin: 0 0 8px;
+   color: #304b3d;
+   font-size: clamp(38px, 5.5vw, 54px);
+   font-weight: normal;
+   letter-spacing: -2px;
+   line-height: 0.9;
+}
+
+.home-page main > article:first-child h1 em {
+   color: #ad4e32;
+   font-weight: normal;
+   font-style: italic;
+}
+
+.home-page main > article:first-child h1 + p {
+   max-width: 385px;
+   margin: 2px 0 14px;
+   color: #68635c;
+   font-size: 11px;
+   line-height: 1.65;
+}
+
+/* Home buttons */
+.home-page main > article:first-child a {
+   display: inline-block;
+   margin: 0 5px 0 0;
+   padding: 9px 14px;
+   border: 1px solid #ad4e32;
+   border-radius: 25px;
+   background-color: #ad4e32;
+   color: #fff;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 7px;
+   font-weight: bold;
+   letter-spacing: 0.3px;
+   text-decoration: none;
+   text-transform: uppercase;
+   transition: background-color 0.2s ease;
+}
+
+.home-page main > article:first-child a:hover {
+   background-color: #8f3e28;
+}
+
+.home-page main > article:first-child a + a {
+   border-color: #c9bba9;
+   background-color: transparent;
+   color: #304b3d;
+}
+
+.home-page main > article:first-child a + a:hover {
+   background-color: #304b3d;
+   color: #fff;
+}
+
+/* Address and telephone */
+.home-page main > article:first-child a ~ p {
+   display: inline-block;
+   width: 170px;
+   margin: 17px 10px 0 0;
+   padding-top: 8px;
+   border-top: 1px solid #ded2c2;
+   color: #68635c;
+   font-size: 9px;
+   line-height: 1.5;
+}
+
+/* featured items */
+
+.home-page main > section:first-of-type {
+   padding: 35px 7% 30px;
+   background-color: #f1dfce;
+   text-align: center;
+}
+
+.home-page main > section:first-of-type > h2 {
+   margin: 0 auto 9px;
+   color: #304b3d;
+   font-size: clamp(28px, 4vw, 36px);
+   font-weight: normal;
+   letter-spacing: -1px;
+   line-height: 0.98;
+}
+
+.home-page main > section:first-of-type > p {
+   max-width: 430px;
+   margin: 0 auto 20px;
+   color: #68635c;
+   font-size: 11px;
+   line-height: 1.65;
+}
+
+/* Three-column card layout */
+.home-page main > section:first-of-type > div {
+   display: grid;
+   grid-template-columns: repeat(3, minmax(0, 1fr));
+   gap: 13px;
+   width: 100%;
+   max-width: 900px;
+   margin: 0 auto;
+   text-align: left;
+}
+
+/* Individual cards */
+.home-page main > section:first-of-type > div > article {
+   min-width: 0;
+   overflow: hidden;
+   border-radius: 9px;
+   background-color: #f7f1e7;
+   box-shadow: 0 8px 22px rgba(72, 47, 28, 0.06);
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.home-page main > section:first-of-type > div > article:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 12px 25px rgba(72, 47, 28, 0.12);
+}
+
+/* Card images */
+.home-page main > section:first-of-type > div > article > img {
+   display: block;
+   width: 100%;
+   height: 145px;
+   object-fit: cover;
+   object-position: center;
+}
+
+/* Card content */
+.home-page main > section:first-of-type > div > article > div {
+   padding: 12px 13px 14px;
+}
+
+.home-page main > section:first-of-type > div > article > div::before {
+   display: block;
+   margin-bottom: 6px;
+   color: #ad4e32;
+   font-size: 8px;
+   letter-spacing: 1px;
+}
+
+.home-page main > section:first-of-type > div > article h2 {
+   margin: 0 0 6px;
+   color: #304b3d;
+   font-size: 16px;
+   font-weight: normal;
+   line-height: 1.2;
+}
+
+.home-page main > section:first-of-type > div > article p {
+   margin: 0 0 10px;
+   color: #68635c;
+   font-size: 10px;
+   line-height: 1.6;
+}
+
+.home-page main > section:first-of-type > div > article a {
+   color: #ad4e32;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 7px;
+   font-weight: bold;
+   letter-spacing: 0.3px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+.home-page main > section:first-of-type > div > article a:hover {
+   text-decoration: underline;
+}
+
+/* Fall Favorites */
+.home-page main > section:nth-of-type(2) {
+   padding: 40px 8% 43px;
+   background-color: #ad4e32;
+   color: #fff;
+}
+
+.home-page main > section:nth-of-type(2) > div {
+   display: grid;
+   grid-template-columns: 0.85fr 1.5fr;
+   align-items: center;
+   gap: 40px;
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.home-page main > section:nth-of-type(2) > div > div:first-child h2 {
+   margin: 0 0 10px;
+   color: #fff;
+   font-size: clamp(28px, 4vw, 36px);
+   font-weight: bold;
+   letter-spacing: -0.7px;
+   line-height: 0.98;
+}
+
+.home-page main > section:nth-of-type(2) > div > div:first-child p {
+   max-width: 260px;
+   margin: 0;
+   color: #fff0e5;
+   font-size: 10px;
+   line-height: 1.65;
+}
+
+/* Seasonal products grid */
+.home-page main > section:nth-of-type(2) > div > div:last-child {
+   display: grid;
+   grid-template-columns: repeat(2, minmax(0, 1fr));
+   column-gap: 25px;
+   row-gap: 24px;
+}
+
+.home-page main > section:nth-of-type(2) article h3 {
+   margin: 0 0 5px;
+   color: #fff;
+   font-size: 12px;
+   font-weight: bold;
+   line-height: 1.35;
+}
+
+.home-page main > section:nth-of-type(2) article p {
+   margin: 0;
+   color: #ffeadc;
+   font-size: 9px;
+   line-height: 1.55;
+}
+
+/* menu page specific code */
+.menu-page main {
+   display: grid;
+   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+   column-gap: 44px;
+   row-gap: 0;
+   width: 100%;
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 36px 8% 32px;
+   flex: 1;
+   align-content: start;
+   background-color: #304b3d;
+   color: #f7f1e7;
+   font-family: Georgia, "Times New Roman", serif;
+}
+
+.menu-page main > article {
+   min-width: 0;
+   margin: 0;
+   flex: initial;
+   background: transparent;
+}
+
+.menu-page main > article:first-child {
+   grid-column: 1 / -1;
+   display: grid;
+   grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+   align-items: end;
+   column-gap: 40px;
+   padding: 0 0 14px;
+   margin-bottom: 22px;
+   border-bottom: 1px solid rgba(247, 241, 231, 0.35);
+}
+
+.menu-page main > article:first-child > p:first-child {
+   grid-column: 1 / -1;
+   margin: 0 0 7px;
+   color: #e5a06d;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 8px;
+   font-weight: bold;
+   letter-spacing: 1.5px;
+   text-transform: uppercase;
+}
+
+.menu-page main > article:first-child h1 {
+   grid-column: 1;
+   grid-row: 2;
+   margin: 0;
+   color: #fff8ec;
+   font-size: clamp(30px, 4.2vw, 43px);
+   font-weight: bold;
+   letter-spacing: -1px;
+   line-height: 1.05;
+}
+
+.menu-page main > article:first-child > p:last-child {
+   grid-column: 2;
+   grid-row: 2;
+   margin: 0 0 3px;
+   color: #e5e2d8;
+   font-size: 10px;
+   line-height: 1.7;
+}
+
+/* Breakfast & Pastries: left column */
+.menu-page main > article:nth-child(2) {
+   grid-column: 1;
+   grid-row: 2;
+}
+
+/* Breads: upper right */
+.menu-page main > article:nth-child(3) {
+   grid-column: 2;
+   grid-row: 2;
+}
+
+/* Cookies & Treats: beneath breads */
+.menu-page main > article:nth-child(4) {
+   grid-column: 2;
+   grid-row: 3;
+   margin-top: 20px;
+}
+
+/* Category titles */
+.menu-page main > article:nth-child(2) h2,
+.menu-page main > article:nth-child(3) h2,
+.menu-page main > article:nth-child(4) h2 {
+   margin: 0 0 12px;
+   color: #e9a16e;
+   font-size: 16px;
+   font-weight: bold;
+   line-height: 1.3;
+}
+
+/* Remove default margins from category containers */
+.menu-page main > article:nth-child(2) > div,
+.menu-page main > article:nth-child(3) > div,
+.menu-page main > article:nth-child(4) > div {
+   min-width: 0;
+}
+
+/* Individual menu item containers */
+.menu-page main > article:nth-child(2) > div > article,
+.menu-page main > article:nth-child(3) > div > article,
+.menu-page main > article:nth-child(4) > div > article {
+   margin: 0;
+   padding: 0;
+   background: transparent;
+   border-radius: 0;
+   box-shadow: none;
+}
+
+/* Item title and price on one row */
+.menu-page main > article:nth-child(2) > div > article > div,
+.menu-page main > article:nth-child(3) > div > article > div,
+.menu-page main > article:nth-child(4) > div > article > div {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+   gap: 10px;
+   margin: 0;
+   padding: 0;
+}
+
+/* Menu item names */
+.menu-page main > article:nth-child(2) h3,
+.menu-page main > article:nth-child(3) h3,
+.menu-page main > article:nth-child(4) h3 {
+   margin: 0;
+   color: #fff8ec;
+   font-size: 10px;
+   font-weight: bold;
+   line-height: 1.5;
+}
+
+/* Prices */
+.menu-page main > article:nth-child(2) span,
+.menu-page main > article:nth-child(3) span,
+.menu-page main > article:nth-child(4) span {
+   flex-shrink: 0;
+   color: #e9a16e;
+   font-size: 9px;
+   font-weight: bold;
+}
+
+/* Item descriptions */
+.menu-page main > article:nth-child(2) > div > article > p,
+.menu-page main > article:nth-child(3) > div > article > p,
+.menu-page main > article:nth-child(4) > div > article > p {
+   margin: 2px 0 8px;
+   padding: 0 0 7px;
+   border-bottom: 1px solid rgba(247, 241, 231, 0.24);
+   color: #d9dfd7;
+   font-size: 9px;
+   line-height: 1.4;
+}
+
+/* Dietary Notice */
+.menu-page main > .menu-notice {
+   grid-column: 1 / -1;
+   margin-top: 21px;
+   padding: 10px 12px;
+   border: 1px solid rgba(247, 241, 231, 0.35);
+   border-radius: 5px;
+   color: #eee9df;
+   font-size: 9px;
+   line-height: 1.5;
+   text-align: center;
+}
+
 /* Page footer styles */
 
 footer{
