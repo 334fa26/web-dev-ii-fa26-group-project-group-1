@@ -154,6 +154,12 @@ nav a:focus-visible {
 
 /* Article Styles */
 
+/*Custom Order Page Styles*/ 
+.container {
+    width: 90%;
+        max-width: 1280px;
+    margin: auto;
+}
 
 
 /* Page footer styles */
