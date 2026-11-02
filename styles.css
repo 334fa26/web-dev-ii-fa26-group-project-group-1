@@ -154,7 +154,7 @@ nav a:focus-visible {
 
 /* Article Styles */
 
-/*Custom Order Page Styles*/ 
+/*Custom Order Page Styles Emma Smith*/ 
 .container {
     width: 90%;
         max-width: 1280px;
@@ -168,15 +168,90 @@ nav a:focus-visible {
     align-items: start;
 }
 
-secion {
+.section {
     padding: 80px 0;
 }
-
+.body {
+    background-color: #f7f1e7;
+}
 /* Section */
 .custom-cakes {
     background: #f7f1e7; 
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+}
+/*Small label*/
+.section-label,
+.step-label {
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ad4e32;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+/* Top feature card */
+.signature-offering {
+    background-color: #f7f1e7;
+    border-radius: 18px 18px 0 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.signature-cardcontent h3 {
+    font-size: 3em;
+    margin: 10px 0;
+    line-height: 0.9;
+    color: #f7f1e7;
 }
 
+/*flavors and frosting*/
+.cake-options {
+    display: flex;
+    gap: 0;
+    margin: 15px 0;
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #ffffff;
+    border: 1px solid #f7f1ef; 
+}
+.option-card {
+    flex: 1;
+    padding: 25px;
+}
+.option-card:first-child {
+    border-right: 1px solid #f7f1ef;
+}
+.option-card h3 {
+    font-size: 2em;
+    color: #304b3d;
+    margin: 10px 1 15px;
+}
+.option-card ul {
+   list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.option-card li {
+    color: #666;
+    line-height: 1.7;
+}
+/* =========================
+   GENERAL TYPOGRAPHY
+========================= */
+
+.custom-cakes h2,
+.custom-cakes h3 {
+    font-weight: normal;
+}
+
+.custom-cakes p {
+    line-height: 1.7;
+}
 .body {
     margin: 0;
     padding: 0;
@@ -282,6 +357,84 @@ secion {
     margin: 0 0 .25em;
     font-size: .95em;
     color: #21424c
+}
+.step-content p {
+    margin: 0;
+    font-size: .85em;
+    color: #68635c;
+}
+.notice {
+    margin-top: 2em;
+    font-size: .85em;
+    line-height: 1.7;
+    color: #68635c;
+}
+/* Right Side */
+.order-form-card {
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 2em;
+}
+.order-form-card h2 {
+    margin-top: 0;
+    margin-bottom: 2em;
+    font-family: Georgia, serif;
+    font-size: 2.5em;
+    color: #21424c;
+}
+
+/* form */
+.order-form-card form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+/*Two collumn rows */
+.form-row {
+    display: flex;
+    gap: 1em;
+}
+label {
+    display: block;
+    margin-bottom: .35em;
+    font-size: .75em;
+    font-weight: 600;
+    color: #21424c;
+}
+/*fields*/
+input, select, textarea {
+    width: 100%;
+    padding: .9em 1em;
+    border: 2px solid #eadbcf;
+    border-radius: 8px;
+    font-size: .95em;
+    background-color: #f8f8f6;
+    box-sizing: border-box;
+}
+input:focus, select:focus, textarea:focus {
+    outline: none;
+    border-color: #ad4e32;
+}
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+/* Button */
+button[type="submit"] {
+    margin-top: .5em;
+    width: 100%;
+    padding: 1em;
+    border: none;
+    border-radius: 30px;
+    background-color: #ad4e32;
+    font-weight: 700;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s
+}
+button[type="submit"]:hover {
+    background-color: #9d492b
 }
 /* ============================================
  * ============================================
