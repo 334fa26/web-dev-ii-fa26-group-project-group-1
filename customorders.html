@@ -141,7 +141,7 @@
                 
                  <div class="form-row">
                     <label for="flavor">Cake flavor</label>
-                    <select id="flavor" name="flavor" aria-label="Cake Flavor">
+                    <select id="cake-flavor" name="cake-flavor" aria-label="Cake Flavor">
                        <option>Select a flavor</option>
                         <option>Vanilla</option>
                         <option>Chocolate</option>
@@ -163,13 +163,16 @@
                 </div>
                      <div class="form-row">
                     <div class="form-group">
+                        <fieldset>
+                        <legend>Cake Details</legend>
                     <label for="size">Cake Size</label>
-                    <select id="size" name="size" aria-describedby="size-help" required>
+                    <select id="cake-size" name="cake-size" aria-describedby="size-help" required>
                        <option>Select a size</option>
                         <option>6 inch</option>
                         <option>8 inch</option>
                         <option>10 inch</option>
                     </select>
+                            </fieldset>
                     <p id="size-help">Choose the cake size for your order.</p>
                 </div>
                     <div class="form-group">
