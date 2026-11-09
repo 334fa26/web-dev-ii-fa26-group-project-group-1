@@ -1071,7 +1071,7 @@ button[type="submit"]:hover {
    margin: 0;
    font-size: 13px;
    line-height: 1.6;
-   color: #ad4e32;
+   color: black;
    
 }
 
@@ -1241,7 +1241,8 @@ button[type="submit"]:hover {
    padding: 14px 22px;
    font-family: inherit;
    font-size: 11px;
-   background-color: #ad4e32
+   background-color: #ad4e32;
+    color: white;
 }
 
 /* Page footer styles */
