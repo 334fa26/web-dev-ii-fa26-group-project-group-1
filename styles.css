@@ -189,7 +189,7 @@ nav a:focus-visible {
     font-size: 0.7em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #ad4e32;
+    color: #000000;
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -206,7 +206,7 @@ nav a:focus-visible {
     font-size: 3em;
     margin: 10px 0;
     line-height: 0.9;
-    color: #f7f1e7;
+    color: #ffffff;
 }
 
 /*flavors and frosting*/
@@ -228,7 +228,7 @@ nav a:focus-visible {
 }
 .option-card h3 {
     font-size: 2em;
-    color: #304b3d;
+    color: #000000;
     margin: 10px 1 15px;
 }
 .option-card ul {
@@ -367,7 +367,7 @@ nav a:focus-visible {
     margin-top: 2em;
     font-size: .85em;
     line-height: 1.7;
-    color: #68635c;
+    color: #040404;
 }
 /* Right Side */
 .order-form-card {
