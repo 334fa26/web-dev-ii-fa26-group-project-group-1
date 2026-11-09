@@ -172,7 +172,7 @@ nav a:focus-visible {
     padding: 80px 0;
 }
 .body {
-    background-color: #f7f1e7;
+    background-color: #304b3d;
 }
 /* Section */
 .custom-cakes {
@@ -189,13 +189,13 @@ nav a:focus-visible {
     font-size: 0.7em;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #782f1a;
+    color: #ad4e32;
     font-weight: bold;
     margin-bottom: 10px;
 }
 /* Top feature card */
 .signature-offering {
-    background-color: #f7f1e7;
+    background-color: #21424c;
     border-radius: 18px 18px 0 0;
     padding: 30px;
     display: flex;
@@ -237,7 +237,7 @@ nav a:focus-visible {
     margin: 0;
 }
 .option-card li {
-    color: #666;
+    color: #000000;
     line-height: 1.7;
 }
 /* =========================
@@ -257,7 +257,7 @@ nav a:focus-visible {
     padding: 0;
     background-color: #f7f1e7;
     font-family: Arial, Helvetica, sans-serif;
-    color: #4a5a63
+    color: #0f0f0f
 }
 
 .custom-cakes-container {
@@ -356,12 +356,12 @@ nav a:focus-visible {
 .step-content h3 {
     margin: 0 0 .25em;
     font-size: .95em;
-    color: #21424c
+    color: #000000
 }
 .step-content p {
     margin: 0;
     font-size: .85em;
-    color: #68635c;
+    color: #000000;
 }
 .notice {
     margin-top: 2em;
@@ -380,7 +380,7 @@ nav a:focus-visible {
     margin-bottom: 2em;
     font-family: Georgia, serif;
     font-size: 2.5em;
-    color: #21424c;
+    color: #000000;
 }
 
 /* form */
@@ -400,7 +400,7 @@ label {
     margin-bottom: .35em;
     font-size: .75em;
     font-weight: 600;
-    color: #21424c;
+    color: #000000;
 }
 /*fields*/
 input, select, textarea {
