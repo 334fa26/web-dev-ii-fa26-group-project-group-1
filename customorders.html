@@ -141,32 +141,36 @@
                 
                  <div class="form-row">
                     <label for="flavor">Cake flavor</label>
-                    <select id="flavor" name="flavor">
+                    <select id="flavor" name="flavor" aria-label="Cake Flavor">
                        <option>Select a flavor</option>
                         <option>Vanilla</option>
                         <option>Chocolate</option>
                         <option>Red Velvet</option>
                         <option>Strawberry</option>
                     </select>
+                     <p id="flavor-help">Choose the cake flavor you'd like for your custom order.</p>
                 </div>
                     <div class="form-row">
                     <label for="frosting">Frosting</label>
-                    <select id="frosting" name="frosting">
+                    <select id="frosting" name="frosting" aria-describedby="frosting-help">
                        <option>Select frosting</option>
                         <option>Buttercream</option>
                         <option>Cream Cheese </option>
                         <option>Ganache</option>
                     </select>
+                    <p id="frosting-help">Choose your preferred frosting.</p>
+                        
                 </div>
                      <div class="form-row">
                     <div class="form-group">
                     <label for="size">Cake Size</label>
-                    <select id="size" name="size">
+                    <select id="size" name="size" aria-describedby="size-help" required>
                        <option>Select a size</option>
                         <option>6 inch</option>
                         <option>8 inch</option>
                         <option>10 inch</option>
                     </select>
+                    <p id="size-help">Choose the cake size for your order.</p>
                 </div>
                     <div class="form-group">
                     <label for="pickupDate">Pickup Date</label>
