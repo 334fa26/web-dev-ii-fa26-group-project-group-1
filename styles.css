@@ -1606,3 +1606,120 @@ claude and chatgpt to find errors
    }
 }
 
+
+/* =====================================
+   GALLERY PAGE STYLES
+===================================== */
+
+
+/* =====================================
+   GALLERY PAGE STYLES
+===================================== */
+
+.gallery-intro {
+    background-color: #f1dfce;
+    text-align: center;
+    padding: 38px 20px 16px;
+}
+
+.gallery-intro p {
+    margin: 15px 0;
+    color: #304b3d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+}
+
+/* Gallery background */
+
+.gallery-section {
+    background-color: #f1dfce;
+    padding: 16px 4.5% 35px;
+}
+
+/* Three-column layout */
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* Individual cards */
+
+.gallery-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-width: 0;
+    border-radius: 14px;
+    background-color: #f7f1e7;
+    box-shadow: 0 8px 22px rgba(48, 75, 61, 0.06);
+}
+
+/* Card images */
+
+.gallery-card img {
+    display: block;
+    width: 100%;
+    height: 218px;
+    object-fit: cover;
+}
+
+/* Card text */
+
+.gallery-card-content {
+    flex: 1;
+    padding: 16px 20px 25px;
+}
+
+.gallery-card-content h2 {
+    margin: 0 0 12px;
+    color: #304b3d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.gallery-card-content p {
+    margin: 0 0 24px;
+    color: #68635c;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Card links */
+
+.gallery-card-content a {
+    color: #ad4e32;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    text-decoration: none;
+}
+
+.gallery-card-content a:hover {
+    color: #8f3e28;
+    text-decoration: underline;
+}
+
+/* Responsive design */
+
+@media screen and (max-width: 800px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-card img {
+        height: 230px;
+    }
+}
