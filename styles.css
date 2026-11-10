@@ -1328,9 +1328,10 @@ footer{
 
 footer img {
    display: block;
-   width: 230px;
-   height: auto;
-   object-fit: contain;
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+    object-fit: contain;
 }
 
 .footer-bottom {
