@@ -1273,7 +1273,8 @@ footer{
    flex: 1.5;
    color: #000000;
    font-size: clamp(13px, 1.2vw, 17px);
-   
+   margin: 5px;
+    
 }
 
 .footer-column  ul{
@@ -1724,3 +1725,4 @@ claude and chatgpt to find errors
         height: 230px;
     }
 }
+
